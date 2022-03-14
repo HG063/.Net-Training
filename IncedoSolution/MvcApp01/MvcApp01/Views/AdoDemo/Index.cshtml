@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>ADO.NET Demo</h1>
+@using (Html.BeginForm())
+{
+<table border="1">
+    <tr>
+        <td>@Html.Label("id", "Employee ID")</td>
+        <td>@Html.TextBox("id")</td>
+        <td><input type="submit" name="b1" value="Create" /></td>
+    </tr>
+    <tr>
+        <td>@Html.Label("ename", "Employee Name")</td>
+        <td>@Html.TextBox("ename")</td>
+        <td><input type="submit" name="b1" value="Retrieve" /></td>
+    </tr>
+    <tr>
+        <td>Job</td>
+        <td>@Html.TextBox("job")</td>
+        <td><input type="submit" name="b1" value="Update" /></td>
+    </tr>
+    <tr>
+        <td>Salary</td>
+        <td>@Html.TextBox("salary")</td>
+        <td><input type="submit" name="b1" value="Delete" /></td>
+    </tr>
+</table>
+ }
+<br />  
+@ViewBag.msg
+<br />  
+@ViewBag.id
+<br />
+@ViewBag.ename
+<br />
+@ViewBag.job
+<br />  
+@ViewBag.salary
+
+

@@ -1,0 +1,28 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    string[] boys = new string[] { "Ram", "Shayam", "Ravi", "Mohan" };
+    List<String> girls = new List<string>() { "Geeta", "Sita", "Babita" };
+}
+
+<h1>Razor Demo, Example01</h1>
+
+<h2>List of Boys</h2>
+<ol>
+    @for (int i = 0; i < boys.Length; i++)
+    {
+        <li>@boys[i]</li>
+}
+</ol>
+
+<h2>List of Girls</h2>
+<ol>
+    @foreach (string girl in girls)
+    {
+        <li>@girl</li>
+}
+</ol>
+
+
+GoTo : <a asp-controller="RazorDemo" asp-action="Index">Razor Demo</a>

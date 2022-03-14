@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Passing Data Demo</h1>
+
+<p>Data passing from controller(application logic) to view(presentation logic)</p>
+
+ViewData : It used index based syntax <br />
+ViewBag : It used fullstop notation <br />
+
+Name : @ViewData["name"].ToString(); <br />
+City : @ViewBag.city; <br />
+                      <br />
+
+Goto:
+<a asp-controller="PassingDataDemo" asp-action="Ex01"> Ex01</a>
+<a asp-controller="PassingDataDemo" asp-action="Ex02"> Ex02</a>
+

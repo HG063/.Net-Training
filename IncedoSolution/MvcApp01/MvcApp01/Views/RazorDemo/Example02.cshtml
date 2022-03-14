@@ -1,0 +1,32 @@
+﻿@{
+    string[] boys = new string[] { "Ram", "Shayam", "Ravi", "Mohan" };
+    List<String> girls = new List<string>() { "Geeta", "Sita", "Babita" };
+}
+
+<h1>Razor Demo, Example01</h1>
+
+<br />
+<h2>Boys List</h2>
+<table border="1">
+    @foreach (string boy in boys)
+    {
+        <tr>
+            <td>@boy</td>
+        </tr>
+    }
+</table>
+
+<br />
+<h2>Girls List</h2>
+<table border="1">
+    @for (int i=0;i<girls.Count;i++)
+    {
+        <tr>
+            <td>@girls[i]</td>
+        </tr>
+    }
+</table>
+
+<br />
+
+GoTo : <a asp-controller="RazorDemo" asp-action="Index">Razor Demo</a>

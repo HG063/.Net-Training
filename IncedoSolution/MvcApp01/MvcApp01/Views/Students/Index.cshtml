@@ -1,0 +1,24 @@
+﻿
+@{
+    List<StudentModel> students = ViewBag.students;
+}
+
+<h1>List of Students</h1>
+<table border="1">
+    <tr>
+        <td>Id</td>
+        <td>Students</td>
+        <td>Course</td>
+        <td>Fee</td>
+    </tr>
+    @foreach(StudentModel S in students)
+            {
+                <tr>
+                    <td>@S.Id</td>
+                    <td>@S.SName</td>
+                    <td>@S.Course</td>
+                    <td>@S.Fee</td>
+                </tr>
+            }
+</table>
+

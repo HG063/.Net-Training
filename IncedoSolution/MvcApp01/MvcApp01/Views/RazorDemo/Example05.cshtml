@@ -1,0 +1,28 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    string message = "Hello from message, this is to inform you that";
+    string[] fruits = new string[] { "Apple", "Banana", "Mango", "Grapes", "Cherry" };
+}
+<h1>Razor Demo, Example05</h1>
+
+@for (int i = 1; i <= 10; i++)
+{
+    <label>@i</label>
+    <input type="text" value="@i" />
+    <input type="radio" />@i
+    <input type="checkbox" />@i
+    <br />
+}
+
+<textarea>@message</textarea>
+<br />
+<select>
+    @foreach (string fruit in fruits)
+    {
+        <option>@fruit</option>
+    }
+</select>
+<br />
+GoTo : <a asp-controller="RazorDemo" asp-action="Index">Razor Demo</a>

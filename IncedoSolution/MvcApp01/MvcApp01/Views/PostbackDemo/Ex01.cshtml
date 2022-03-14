@@ -1,0 +1,17 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Postback Demo, Ex01</h1>
+
+<form action="/postbackdemo/ex01" method="post">
+    <input type="submit" name="v1" value="Accept" />
+    <input type="submit" name="v1" value="Reject" />
+</form>
+
+@ViewBag.msg
+<br />
+
+<a asp-action="Index" asp-controller="PostbackDemo">Back to Index</a>

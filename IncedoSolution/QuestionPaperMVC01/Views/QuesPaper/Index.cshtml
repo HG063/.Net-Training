@@ -1,0 +1,56 @@
+﻿
+@{
+    List<string> questions = new List<string> {
+        "Pick one Colour from following?",
+        "Pick one Candy from following?",
+        "Pick one Watch Brand from following",
+        "Pick one fruit from following?",
+        "Pick one Vegetable from following?",
+        "Pick one Flower from following?",
+        "Pick one Car Brand from following?",
+        "Pick one Bike Brand from following?",
+        "Pick one Biscuit Brand from following?",
+        "Pick one Beverage Brand from following?"
+    };
+    List<List<string>> options = new List<List<string>>()
+{
+     new List<string>{ "Moon", "Trees", "Blue", "Mountain" },
+     new List<string>{ "Cloud", "Mango Bite", "Bird", "All of the Above" },
+     new List<string>{ "Fastrack", "Honda", "BMW", "None of the above" },
+     new List<string>{ "Tree", "Sun", "Mango", "Potato" },
+     new List<string>{ "Tomato", "Beans", "Carrot", "All of the Above" },
+     new List<string>{ "Rose", "Apple", "Yellow", "None of the Above" },
+     new List<string>{ "Honda", "Audi", "Activa", "All of the Above" },
+     new List<string>{ "Mercedes", "Maruti Suzuki", "Duke", "All of the Above" },
+     new List<string>{ "50-50", "Good-Day", "Oreo", "All of the Above" },
+     new List<string>{ "Oil", "Pepsi", "Petrol", "All of the Above" },
+    };
+    int TotalScore = 1 * questions.Count;
+}
+
+<div class=" text-center">
+    <h1 class="display-4"><b>General MCQ</b></h1>
+</div>
+
+@using (Html.BeginForm())
+{
+    @for (int i = 0; i < 10; i++)
+    {
+        int k = 65;
+        <div>
+            <p><b>@(i+1). @questions[i]</b></p>
+            @foreach (string option in options[i])
+            {
+                <p>@Html.RadioButton($"ans[{i}]", option) @(Convert.ToChar(k++)). @option</p>
+            }
+        </div>
+        <br />
+    }
+    <input type="submit" />
+}
+<br />
+<h2 style="color:red"><b>@ViewBag.msg</b></h2>
+@if (ViewBag.score >= 1)
+{
+    <h2>Score = @ViewBag.score / @TotalScore</h2>
+}

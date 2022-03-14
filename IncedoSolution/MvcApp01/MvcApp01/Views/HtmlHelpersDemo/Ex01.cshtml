@@ -1,0 +1,28 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Html Helpers Demo, Ex01</h1>
+
+@using (Html.BeginForm())
+{
+    @Html.Label("a", "Enter Number 1 :");
+    @Html.TextBox("a");
+    <br />
+    @Html.Label("b", "Enter Number 1 :");
+    @Html.TextBox("b");
+    <br />
+    <input type="submit" name="ch" value="Add" />
+    <input type="submit" name="ch" value="Sub" />
+    <input type="submit" name="ch" value="Mul" />
+    <input type="submit" name="ch" value="Div" />
+    <input type="submit" name="ch" value="Big" />
+    <input type="submit" name="ch" value="Small" />
+}
+<br />
+@ViewBag.msg
+<br />
+
+<a asp-action="Index">Back to Index</a>

@@ -1,0 +1,16 @@
+C:\Users\harshit.gupta2\OneDrive - Incedo Technology Solutions Ltd\Documents\C# Practice\IncedoSolution\ConsoleBankApp\bin\Debug\net5.0\ConsoleBankApp.exe
+C:\Users\harshit.gupta2\OneDrive - Incedo Technology Solutions Ltd\Documents\C# Practice\IncedoSolution\ConsoleBankApp\bin\Debug\net5.0\ConsoleBankApp.deps.json
+C:\Users\harshit.gupta2\OneDrive - Incedo Technology Solutions Ltd\Documents\C# Practice\IncedoSolution\ConsoleBankApp\bin\Debug\net5.0\ConsoleBankApp.runtimeconfig.json
+C:\Users\harshit.gupta2\OneDrive - Incedo Technology Solutions Ltd\Documents\C# Practice\IncedoSolution\ConsoleBankApp\bin\Debug\net5.0\ConsoleBankApp.runtimeconfig.dev.json
+C:\Users\harshit.gupta2\OneDrive - Incedo Technology Solutions Ltd\Documents\C# Practice\IncedoSolution\ConsoleBankApp\bin\Debug\net5.0\ConsoleBankApp.dll
+C:\Users\harshit.gupta2\OneDrive - Incedo Technology Solutions Ltd\Documents\C# Practice\IncedoSolution\ConsoleBankApp\bin\Debug\net5.0\ref\ConsoleBankApp.dll
+C:\Users\harshit.gupta2\OneDrive - Incedo Technology Solutions Ltd\Documents\C# Practice\IncedoSolution\ConsoleBankApp\bin\Debug\net5.0\ConsoleBankApp.pdb
+C:\Users\harshit.gupta2\OneDrive - Incedo Technology Solutions Ltd\Documents\C# Practice\IncedoSolution\ConsoleBankApp\obj\Debug\net5.0\ConsoleBankApp.csproj.AssemblyReference.cache
+C:\Users\harshit.gupta2\OneDrive - Incedo Technology Solutions Ltd\Documents\C# Practice\IncedoSolution\ConsoleBankApp\obj\Debug\net5.0\ConsoleBankApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harshit.gupta2\OneDrive - Incedo Technology Solutions Ltd\Documents\C# Practice\IncedoSolution\ConsoleBankApp\obj\Debug\net5.0\ConsoleBankApp.AssemblyInfoInputs.cache
+C:\Users\harshit.gupta2\OneDrive - Incedo Technology Solutions Ltd\Documents\C# Practice\IncedoSolution\ConsoleBankApp\obj\Debug\net5.0\ConsoleBankApp.AssemblyInfo.cs
+C:\Users\harshit.gupta2\OneDrive - Incedo Technology Solutions Ltd\Documents\C# Practice\IncedoSolution\ConsoleBankApp\obj\Debug\net5.0\ConsoleBankApp.csproj.CoreCompileInputs.cache
+C:\Users\harshit.gupta2\OneDrive - Incedo Technology Solutions Ltd\Documents\C# Practice\IncedoSolution\ConsoleBankApp\obj\Debug\net5.0\ConsoleBankApp.dll
+C:\Users\harshit.gupta2\OneDrive - Incedo Technology Solutions Ltd\Documents\C# Practice\IncedoSolution\ConsoleBankApp\obj\Debug\net5.0\ref\ConsoleBankApp.dll
+C:\Users\harshit.gupta2\OneDrive - Incedo Technology Solutions Ltd\Documents\C# Practice\IncedoSolution\ConsoleBankApp\obj\Debug\net5.0\ConsoleBankApp.pdb
+C:\Users\harshit.gupta2\OneDrive - Incedo Technology Solutions Ltd\Documents\C# Practice\IncedoSolution\ConsoleBankApp\obj\Debug\net5.0\ConsoleBankApp.genruntimeconfig.cache

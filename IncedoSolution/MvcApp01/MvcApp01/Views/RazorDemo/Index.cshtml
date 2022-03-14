@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<h1>Razor Demo Controller, Index View</h1>
+
+<p>Razor is a view engine in .cshtml page used to program</p>
+<p>Razor can be implemented in two ways: -</p>
+
+<p>Single line Razor contains, one statement</p>
+Date : @DateTime.Now.ToLongDateString() <br />
+Time : @DateTime.Now.ToLongTimeString() <br />
+                                        <br />
+
+
+<p>Multiline Razor Contains, Multi statements.</p>
+@{ 
+    string name = "Harshit Gupta";
+    string city = "Lucknow";
+}
+Name : @name , City : @city
+
+<br />
+<br />
+
+@{ 
+    string[] actions = { "Example01", "Example02", "Example03", "Example04", "Example05" };
+}
+
+
+
+GoTo:
+@for (int i = 0; i < actions.Length; i++)
+{
+    <a asp-controller="RazorDemo" asp-action=@actions[i]>@actions[i]</a>
+}

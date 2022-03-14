@@ -1,0 +1,23 @@
+﻿
+
+<h1>Html Helper Demo</h1>
+
+<p>It is a built in class that generate html tag programitically</p>
+
+@using (Html.BeginForm())
+{
+    @Html.Label("t1", "Enter Name :");
+    @Html.TextBox("t1");
+    <br />
+    <Input type="submit" name="b1" value="Upper" />
+    <Input type="submit" name="b1" value="Lower" />
+    <Input type="submit" name="b1" value="Length" />
+    <br />
+}
+@ViewBag.msg
+<br />
+Goto:
+<a asp-action="Ex01">Ex01</a>
+<a asp-action="Ex02">Ex02</a>
+<a asp-action="Ex03">Ex03</a>
+

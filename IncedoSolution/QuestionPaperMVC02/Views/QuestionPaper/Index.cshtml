@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class=" text-center">
+    <h1 class="display-4"><b>Objective Examination</b></h1>
+</div>
+
+<br />
+@using(Html.BeginForm())
+{
+    @Html.Label("name","Enter Name: ")
+    @Html.TextBox("name")
+     <br />
+     <br />
+     <text>
+         <b>
+             Read The Following Instructions Carefully.<br />
+             1. There are 10 Questions in the Quiz.<br />
+             2. All Questions are Compulsory to Attempt.<br />
+         </b>
+     </text>
+    <br />
+    @Html.CheckBox("ch")
+    @Html.Label("ch",", I have read the instructions carefully.")<br />
+    <br />
+    <input type="submit"/>
+}
+<br />
+<p style="color:green"><b>@ViewBag.msg1</b></p>
+<p style="color:red"><b>@ViewBag.msg</b></p>
+<a asp-action="@ViewBag.action">@ViewBag.start</a>

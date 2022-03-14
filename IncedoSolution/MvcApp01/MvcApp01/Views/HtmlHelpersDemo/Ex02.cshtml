@@ -1,0 +1,31 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Html Helpers Demo, Ex02</h1>
+<table border="1">
+    @using (Html.BeginForm())
+    {
+        <tr>
+            <td>@Html.Label("t1", "Enter Name : ")</td>
+            <td>@Html.TextBox("t1")</td>
+        </tr>
+        <tr>
+            <td><text>Choose Gender</text></td>
+            <td>
+                @Html.RadioButton("gender", "Male")<text>Male</text>
+                @Html.RadioButton("gender", "Female")<text>Female</text>
+                @Html.RadioButton("gender", "Others")<text>Others</text>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" /></td>
+        </tr>
+    }
+</table>
+<br />
+@ViewBag.msg
+<br />
+<a asp-action="Index">Back to Index</a>
