@@ -1,5 +1,5 @@
 # .Net-Training
-Programs that I had practiced in the .Net Training at Incedo Inc.
+Programs and Concepts that I had practiced in the .Net Training at Incedo Inc.
 
 Day-Wise .Net Training Topics Covered :-
 
